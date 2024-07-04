@@ -1,0 +1,4 @@
+SELECT (months*salary) AS TOTAL, COUNT(*)
+FROM Employee
+GROUP BY TOTAL DESC
+LIMIT 1;
